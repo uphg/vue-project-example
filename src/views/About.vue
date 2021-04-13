@@ -1,0 +1,22 @@
+<template>
+  <div class="about">
+    <h1>This is an about page</h1>
+    <p></p>
+    <p></p>
+  </div>
+</template>
+<script>
+import { imgCaptcha } from '~mock/user.js'
+
+export default {
+  data: () => ({
+    text: ''
+  }),
+  mounted () {
+    imgCaptcha().then(response => {
+      console.log('response')
+      console.log(response)
+    })
+  }
+}
+</script>
