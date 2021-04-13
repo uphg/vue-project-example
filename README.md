@@ -1,6 +1,6 @@
-# Vue Project Template
+# Vue Project Example
 
-一个简单的 Vue 前端项目脚手架
+一个简单的 Vue 前端项目脚手架例子
 
 - 使用 Element UI 做 UI 组件
 - 自动化引入 Icon svg 图标
@@ -8,6 +8,7 @@
 - 根据路由动态切换页面 title
 - 封装 Promise 来模拟请求 mock 数据
 - 添加 normalize.css (使不同浏览器默认样式保持一致)
+- 使用 ESLint + Standard 格式化代码
 
 ## 命令
 
