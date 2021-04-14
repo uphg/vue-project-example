@@ -1,8 +1,8 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <p></p>
-    <p></p>
+    <p />
+    <p />
   </div>
 </template>
 <script>
@@ -12,7 +12,7 @@ export default {
   data: () => ({
     text: ''
   }),
-  mounted () {
+  mounted() {
     imgCaptcha().then(response => {
       console.log('response')
       console.log(response)

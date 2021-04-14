@@ -2,8 +2,8 @@
   <div class="vuex-demo">
     <h2>测试Vuex</h2>
     <div>
-      <p>用户名：{{userName}}</p>
-      <p>电话：{{userPhone}}</p>
+      <p>用户名：{{ userName }}</p>
+      <p>电话：{{ userPhone }}</p>
     </div>
     <div>
       <button @click="setUserInfo">设置用户信息</button>
@@ -13,17 +13,17 @@
 
 <script>
 export default {
-  name: 'app',
+  name: 'App',
   computed: {
-    userName () {
+    userName() {
       return this.$store.getters.name // or return this.$store.state.user.name
     },
-    userPhone () {
+    userPhone() {
       return this.$store.getters.phone
     }
   },
   methods: {
-    setUserInfo () {
+    setUserInfo() {
       this.$store.commit('user/SET_NAME', '张三')
       this.$store.commit('user/SET_PHONE', '110')
     }

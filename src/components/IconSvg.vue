@@ -1,13 +1,13 @@
 
 <template>
   <svg class="icon-svg" aria-hidden="true">
-    <use :xlink:href="iconName"></use>
+    <use :xlink:href="iconName" />
   </svg>
 </template>
 
 <script>
 export default {
-  name: 'icon-svg',
+  name: 'IconSvg',
   props: {
     name: {
       type: String,
@@ -15,7 +15,7 @@ export default {
     }
   },
   computed: {
-    iconName () {
+    iconName() {
       return `#icon-${this.name}`
     }
   }

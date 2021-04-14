@@ -8,7 +8,7 @@
 - 根据路由动态切换页面 title
 - 封装 Promise 来模拟请求 mock 数据
 - 添加 normalize.css (使不同浏览器默认样式保持一致)
-- 使用 ESLint + Standard 格式化代码
+- 使用 [ESLint confige Vue](https://github.com/vuejs/eslint-config-vue) 格式化代码
 
 ## 命令
 

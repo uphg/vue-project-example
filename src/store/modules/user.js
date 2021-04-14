@@ -17,7 +17,7 @@ const mutations = {
   }
 }
 const actions = {
-  login ({ commit }, userInfo) {
+  login({ commit }, userInfo) {
     const { name, phone } = userInfo
     return new Promise(() => {
       commit('SET_NAME', name)

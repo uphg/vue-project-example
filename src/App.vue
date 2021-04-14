@@ -8,24 +8,24 @@
       <router-link to="/vuex-demo">Vuex 案例</router-link>
     </header>
     <div>
-      <router-view></router-view>
+      <router-view />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: 'App',
   computed: {
-    userName () {
+    userName() {
       return this.$store.getters.name // or return this.$store.state.user.name
     },
-    userPhone () {
+    userPhone() {
       return this.$store.getters.phone
     }
   },
   methods: {
-    setUserInfo () {
+    setUserInfo() {
       this.$store.commit('user/SET_NAME', '张三')
       this.$store.commit('user/SET_PHONE', '110')
     }
