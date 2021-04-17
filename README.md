@@ -45,4 +45,4 @@ yarn lint
 <icon-svg name="bag-check" />
 ```
 
-`jsconfig.json` 配置参考：[https://code.visualstudio.com/docs/languages/jsconfig#_what-is-jsconfigjson](https://code.visualstudio.com/docs/languages/jsconfig#_what-is-jsconfigjson)
+`jsconfig.json` 配置参考：[https://vuejs.github.io/vetur/guide/setup.html#project-setup](https://vuejs.github.io/vetur/guide/setup.html#project-setup)
