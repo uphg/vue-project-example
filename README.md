@@ -9,6 +9,7 @@
 - 封装 Promise 来模拟请求 mock 数据
 - 添加 normalize.css (使不同浏览器默认样式保持一致)
 - 使用 [ESLint confige Vue](https://github.com/vuejs/eslint-config-vue) 格式化代码
+- 在 vue.config.js 中添加 pages 分页配置
 
 ## 命令
 

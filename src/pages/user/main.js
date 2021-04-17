@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import './plugins/element.js'
 import '@/icons' // icon
-import '@/permission'
+import './permission'
 
 import { initDirective } from './directive'
 

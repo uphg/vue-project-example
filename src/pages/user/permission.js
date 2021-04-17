@@ -1,5 +1,5 @@
 import router from './router'
-import getPageTitle from './utils/get-page-title'
+import getPageTitle from '@/utils/get-page-title'
 
 router.beforeEach((to, from, next) => {
   // set page title

@@ -6,23 +6,23 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/user/',
     name: 'Home',
     component: Home,
     meta: {
-      title: '首页'
+      title: '个人中心'
     }
   },
   {
-    path: '/about',
+    path: '/user/about',
     name: 'About',
     component: () => import('../views/About.vue'),
     meta: {
-      title: '关于'
+      title: '关于我的'
     }
   },
   {
-    path: '/vuex-demo',
+    path: '/user/vuex-demo',
     name: 'VuexDemo',
     component: () => import('../views/VuexDemo'),
     meta: {

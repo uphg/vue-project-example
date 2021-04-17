@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <router-link to="/">首页</router-link>
+      <router-link :to="{ name: 'Home' }">个人中心</router-link>
       |
-      <router-link to="/about">关于</router-link>
+      <router-link :to="{ path: '/user/about' }">关于</router-link>
       |
-      <router-link to="/vuex-demo">Vuex 案例</router-link>
+      <router-link :to="{ name: 'VuexDemo' }">Vuex 案例</router-link>
     </header>
     <div>
       <router-view />
