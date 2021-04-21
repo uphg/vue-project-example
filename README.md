@@ -46,3 +46,24 @@ yarn lint
 ```
 
 `jsconfig.json` 配置参考：[https://vuejs.github.io/vetur/guide/setup.html#project-setup](https://vuejs.github.io/vetur/guide/setup.html#project-setup)
+
+手动引入svg
+
+```vue
+<svg aria-hidden="true" :viewBox="iconAt.viewBox" class="icon-at">
+  <use :xlink:href="'#'+iconAt.id" />
+</svg>
+```
+
+```js
+import '@/icons/svg/at.svg' // 引入 icon
+import iconAt from '@/icons/svg/at.svg'
+export default {
+  name: 'App',
+  data() {
+    return {
+      iconAt
+    }
+  }
+}
+```
