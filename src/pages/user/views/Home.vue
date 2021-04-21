@@ -4,7 +4,6 @@
     <div class="svg-demo">
       <icon-svg name="aspect-ratio" />
       <icon-svg name="at" />
-      <icon-svg name="bag-check" />
     </div>
     <HelloWorld msg="HelloWorld" />
   </div>
