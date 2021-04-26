@@ -3,7 +3,7 @@
     <header>
       <router-link :to="{ name: 'Home' }">个人中心</router-link>
       |
-      <router-link :to="{ path: '/user/about' }">关于</router-link>
+      <router-link :to="{ path: '/about' }">关于</router-link>
       |
       <router-link :to="{ name: 'VuexDemo' }">Vuex 案例</router-link>
     </header>

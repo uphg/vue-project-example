@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/user/',
+    path: '/',
     name: 'Home',
     component: Home,
     meta: {
@@ -14,7 +14,7 @@ const routes = [
     }
   },
   {
-    path: '/user/about',
+    path: '/about',
     name: 'About',
     component: () => import('../views/About.vue'),
     meta: {
@@ -22,7 +22,7 @@ const routes = [
     }
   },
   {
-    path: '/user/vuex-demo',
+    path: '/vuex-demo',
     name: 'VuexDemo',
     component: () => import('../views/VuexDemo'),
     meta: {
@@ -33,7 +33,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/user/',
   routes
 })
 
