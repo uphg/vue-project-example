@@ -14,6 +14,7 @@ module.exports = {
   // add your custom rules here
   // it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
+    "vue/require-default-prop": "off", // 关闭 Vue 组件 prop 默认值检查
     "vue/max-attributes-per-line": [2, {
       "singleline": 10,
       "multiline": {
